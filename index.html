@@ -59,7 +59,6 @@ function getLocation() {
 }
 
 function showPosition(position) {
-  var marker = L.marker([position.coords.latitude, position.coords.longitude]).addTo(map);
   map.panTo(new L.LatLng(position.coords.latitude, position.coords.longitude));
 }
 </script>
