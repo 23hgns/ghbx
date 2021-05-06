@@ -3,12 +3,12 @@
 <html>
 <head>
 	
-	<title>Gharbasi - Find services from home (Demo)</title>
+	<title>gharbasi</title>
 
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+	<link rel="shortcut icon" type="image/x-icon" href="./assets/images/gharbasi_favicon.png" />
 
     <link rel="stylesheet" href="./assets/css/maps.css">
     <link rel="stylesheet" href="./assets/css/custom.css">
@@ -104,7 +104,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
   padding: 20px;
   border: 1px solid #888;
   width: 70%;
-
 }
 
 /* The Close Button */
@@ -121,6 +120,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   text-decoration: none;
   cursor: pointer;
 }
+
 </style>
 </head>
 <body onload="getLocation()"></body>
@@ -148,7 +148,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 	reach us at : <i>gharbasi.connect(at)gmail.com</i><br><br>
 </center>
 
-  </div>
+</div>
 
 </div>
 
@@ -162,10 +162,12 @@ var btn = document.getElementById("myBtn");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal 
+// When the user clicks the button, open the modal
 btn.onclick = function() {
   modal.style.display = "block";
 }
+
+//load the map model with the interaction active
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
